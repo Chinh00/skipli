@@ -1,0 +1,12 @@
+.docker-volumes
+backend/node_modules
+frontend/node_modules
+dist
+.env
+*.log
+
+# Production secrets
+backend/.env.production
+
+# Firebase service account keys
+*firebase-adminsdk*.json
